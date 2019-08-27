@@ -79,8 +79,9 @@ email
 posts
 ```
 
-**Note :** userID should be unique and will be provided by software.
-**Note :** username & email should be unique.
+**Note :** `userID` should be unique and will be provided by software.
+
+**Note :** `username` & `email` should be unique.
 
 - Post:
 ```
@@ -184,8 +185,9 @@ Failure Respond:
 }
 ```
 
-**Note :** you can provide any or both fields. You don't need to provide all fields.
-**Note :** username & email should be unique.
+**Note :** You can provide any or both fields. You don't need to provide all fields.
+
+**Note :** `username` & `email` should be unique.
 
 - /users/:id
 ```
@@ -207,7 +209,7 @@ Failure Respond:
 }
 ```
 
-**Note :** by deleting a user, all its posts would be deleted.
+**Note :** By deleting a user, all its posts would be deleted.
 
 - /posts
 ```
@@ -298,8 +300,9 @@ Failure Respond:
 }
 ```
 
-**Note :** you can provide any or both fields. You don't need to provide all fields.
-**Note :** you can not update author.
+**Note :** You can provide any or both fields. You don't need to provide all fields.
+
+**Note :** You can not update `author`.
 
 - /posts/:id
 ```
@@ -321,6 +324,6 @@ Failure Respond:
 }
 ```
 
-**NOTE :** in some queries the return object is populated, in some cases not. its on purpose.
- 
+**Note :** In some queries the return object is populated, in some cases not. Its on purpose.
+
 [Go 2 Top ^](#top)
