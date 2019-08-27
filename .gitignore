@@ -1,5 +1,5 @@
 # config file
-nodemon.git
+nodemon.json
 
 # Dependency directories
-node_modules/
+/node_modules
