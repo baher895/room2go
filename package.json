@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "clean": "rm -rf node_modules"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,8 @@
   "homepage": "https://github.com/baher895/room2go#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "lodash.clone": "^4.5.0",
+    "lodash.clonedeep": "^4.5.0",
     "morgan": "^1.9.1",
     "uuid": "^3.3.3"
   },
