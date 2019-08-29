@@ -13,7 +13,6 @@ Quick Index:
 - [Health Check](#health-check) 
 - [Models](#models) 
 - [API definition](#api-definition) 
-- [To Do](#to-do) 
 
 <a name='before-start'></a>
 
